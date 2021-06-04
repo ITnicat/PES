@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>PES Championship</title>
+</head>
+<body>
+	<header>
+		<img src="logo.png" style="width: 150px; height: 150px; float: right; margin-right: 270px;">
+		<div id="headerText">
+			<h1>PES Championship</h1>
+		</div>
+	</header>
+	<div id="sideBar">
+		<div class="menuButton" onclick="openMenu()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<ul>
+			<li>Menu</li>
+			<li><a href="index.html">Əsas Səhifə</a></li>
+			<li><a href="statistics.html">Məşqçi Statistikası</a></li>
+			<li><a href="dc.html">Dünya Çempionatı</a></li>
+			<li><a href="">Çempionlar Ligası</a></li>
+			<li><a href="">Lig</a></li>
+		</ul>
+	</div>
+	<div class="slider">
+		<div class="slides">
+			<input type="radio" name="radio-btn" id="radio1">
+			<input type="radio" name="radio-btn" id="radio2">
+			<input type="radio" name="radio-btn" id="radio3">
+
+			<div class="slide first">
+				<div id="text1"><h1>İki favoritin oyununda, Bavarya əsl çempion kimi oynadı!</h1></div>
+				<img src="bayern.jpg" style="width: 600px; height: 400px">
+			</div>
+			<div class="slide">
+				<div id="text2"><h1>Son çempion asanlıqla rəqibinin üstəsindən gəldi!</h1></div>
+				<img src="manutd.jpg" style="width: 600px; height: 400px">
+			</div>
+			<div class="slide">
+				<div id="text3"><h1>Juventus son dəqiqədə çətin rəqibini məğlub edə bildi!</h1></div>
+				<img src="juve.jpg" style="width: 600px; height: 400px;">
+			</div>
+
+			<div class="navigation-auto">
+				<div class="auto-btn1"></div>
+				<div class="auto-btn2"></div>
+				<div class="auto-btn3"></div>
+			</div>
+		</div>
+
+		<div class="navigation-manual">
+			<label for="radio1" class="manual-btn"></label>
+			<label for="radio2" class="manual-btn"></label>
+			<label for="radio3" class="manual-btn"></label>
+		</div>
+	</div>
+	<div class="slider2">
+		<div class="slides2">
+			<input type="radio" name="radio-btn2" id="radio4">
+			<input type="radio" name="radio-btn2" id="radio5">
+			<input type="radio" name="radio-btn2" id="radio6">
+			<input type="radio" name="radio-btn2" id="radio7">
+			<input type="radio" name="radio-btn2" id="radio8">
+
+			<div class="slide first2">
+				<img src="bayint.png" style="width: 600px; height: 400px">
+			</div>
+			<div class="slide2">
+				<img src="arsliv.png" style="width: 600px; height: 400px">
+			</div>
+			<div class="slide2">
+				<img src="lesmanc.png" style="width: 600px; height: 400px;">
+			</div>
+			<div class="slide2">
+				<img src="manubjk.png" style="width: 600px; height: 400px;">
+			</div>
+			<div class="slide2">
+				<img src="realjuve.png" style="width: 600px; height: 400px;">
+			</div>
+
+			<div class="navigation-auto2">
+				<div class="auto-btn4"></div>
+				<div class="auto-btn5"></div>
+				<div class="auto-btn6"></div>
+			</div>
+		</div>
+
+		<div class="navigation-manual2">
+			<label for="radio4" class="manual-btn2"></label>
+			<label for="radio5" class="manual-btn2"></label>
+			<label for="radio6" class="manual-btn2"></label>
+			<label for="radio7" class="manual-btn2"></label>
+			<label for="radio8" class="manual-btn2"></label>
+		</div>
+	
+
+
+
+
+
+	<script>
+		function openMenu() {
+			document.getElementById("sideBar").classList.toggle("active");
+		}
+
+		
+	</script>
+</body>
+</html>
